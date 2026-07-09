@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import projects from '../data/projects.json';
+import '../styles/projects.css';
+---
+
+<BaseLayout showHeader={false} title="Harinandan K | Projects" description="Harinandan K - Projects collection. Interactive portfolio dashboard featuring open-source projects, system utilities, and full-stack applications.">
+  <div class="container">
+    <!-- Header -->
+    <div class="projects-header">
+      <h1>My Projects</h1>
+      <p>Here you can find a collection of my public/open-source projects. Feel free to explore and check them out!</p>
+      <a href="/" class="back-home-btn">
+        <svg width="14" height="14">
+          <use href="/assets/icons.svg#icon-arrow-left"></use>
+        </svg>
+        Back to Home
+      </a>
+    </div>
+
+    <!-- Project Cards Grid -->
+    <main class="projects-grid" id="projectsGrid">
+      {projects.map((proj) => (
+        <article class="projects-card">
+          {proj.banner_image ? (
+            <div class="card-banner" style={`background-image: url('${proj.banner_image}');`}>
+              <div class={`card-badge ${proj.status_color === 'in-progress' ? 'purple' : 'green'}`}>
+                {proj.status_color === 'in-progress' ? 'In Progress' : 'Completed'}
+              </div>
+            </div>
+          ) : (
+            <div class="card-banner no-image">
+              <div class="card-banner-graphic"></div>
+              <div class="card-banner-text">{proj.title}</div>
+              <div class={`card-badge ${proj.status_color === 'in-progress' ? 'purple' : 'green'}`}>
+                {proj.status_color === 'in-progress' ? 'In Progress' : 'Completed'}
+              </div>
+            </div>
+          )}
+          <div class="card-content">
+            <h3 class="card-title">{proj.title}</h3>
+            <p class="card-desc">{proj.description}</p>
+            <div class="card-tags">
+              {proj.tags.map((tag) => (
+                <span class={`card-tag ${tag.toLowerCase().replace(/[^a-z0-9]/g, '')}`}>{tag}</span>
+              ))}
+            </div>
+            <div class="card-actions">
+              <a href={proj.github_url} class="card-btn card-btn-outline" target="_blank" rel="noopener noreferrer">
+                Source Code
+                <svg width="11" height="11">
+                  <use href="/assets/icons.svg#icon-coding"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      ))}
+    </main>
+  </div>
+
+  <!-- Scroll-to-Top Button -->
+  <button id="scrollToTopBtn" class="scroll-to-top-btn" aria-label="Scroll to top">
+    <svg width="18" height="18">
+      <use href="/assets/icons.svg#icon-arrow-up"></use>
+    </svg>
+  </button>
+</BaseLayout>

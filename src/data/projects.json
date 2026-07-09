@@ -1,0 +1,32 @@
+[
+  {
+    "id": "idk",
+    "title": "IDK",
+    "description": "A lightweight local development deployment tool designed to orchestrate containers. Automatically provisions mock networking environments, injects secrets, and configures proxy redirects.",
+    "tags": ["Docker", "DevOps", "Shell Scripting", "Orchestration"],
+    "github_url": "https://github.com/Harinandan-K/idk.git",
+    "status_color": "in-progress",
+    "status_text": "Working * Recent",
+    "banner_image": null
+  },
+  {
+    "id": "arduino-tui",
+    "title": "Arduino TUI",
+    "description": "A user friendly Terminal User Interface built on top of Arduino CLI. Programmed using Python's Textual framework to display compile progress and read serial telemetry logs.",
+    "tags": ["Python", "Textual", "Arduino CLI", "Serial COM"],
+    "github_url": "https://github.com/Harinandan-K/ArduinoTUI.git",
+    "status_color": "completed",
+    "status_text": "April 2026 * Completed",
+    "banner_image": "/arduino-tui.png"
+  },
+  {
+    "id": "ne1",
+    "title": "NE1",
+    "description": "A clean, keyboard-driven Wayland desktop environment configuration built on top of the Sway window manager. Integrates custom status bars, workflow automations, and unified theme configurations for instant deployment on Linux.",
+    "tags": ["Sway", "Wayland", "Bash", "Rice", "Linux"],
+    "github_url": "https://github.com/Harinandan-K/Ne1-Sway-Rice.git",
+    "status_color": "completed",
+    "status_text": "May 2026 * Completed",
+    "banner_image": "/Ne1.png"
+  }
+]

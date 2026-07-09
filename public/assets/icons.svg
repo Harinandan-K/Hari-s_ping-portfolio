@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <!-- GitHub Icon -->
+  <symbol id="icon-github" viewBox="0 0 24 24">
+    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+  </symbol>
+
+  <!-- LinkedIn Icon -->
+  <symbol id="icon-linkedin" viewBox="0 0 24 24">
+    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+  </symbol>
+
+  <!-- Email Icon -->
+  <symbol id="icon-email" viewBox="0 0 24 24">
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <polyline points="22,6 12,13 2,6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <!-- Résumé/Document Icon -->
+  <symbol id="icon-resume" viewBox="0 0 24 24">
+    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <polyline points="14 2 14 8 20 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="16" y1="13" x2="8" y2="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="16" y1="17" x2="8" y2="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <polyline points="10 9 9 9 8 9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <!-- Electronics Icon -->
+  <symbol id="icon-electronics" viewBox="0 0 24 24">
+    <rect x="4" y="4" width="16" height="16" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="9" y="9" width="6" height="6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="9" y1="1" x2="9" y2="4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="15" y1="1" x2="15" y2="4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="9" y1="20" x2="9" y2="23" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="15" y1="20" x2="15" y2="23" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="20" y1="9" x2="23" y2="9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="20" y1="15" x2="23" y2="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="1" y1="9" x2="4" y2="9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="1" y1="15" x2="4" y2="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <!-- Reading Icon -->
+  <symbol id="icon-reading" viewBox="0 0 24 24">
+    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <!-- Coding Icon -->
+  <symbol id="icon-coding" viewBox="0 0 24 24">
+    <polyline points="16 18 22 12 16 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <polyline points="8 6 2 12 8 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <!-- Gaming Icon -->
+  <symbol id="icon-gaming" viewBox="0 0 24 24">
+    <line x1="6" y1="12" x2="10" y2="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="8" y1="10" x2="8" y2="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="15" y1="13" x2="15.01" y2="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="18" y1="11" x2="18.01" y2="11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="2" y="6" width="20" height="12" rx="3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <!-- Python Icon -->
+  <symbol id="icon-python" viewBox="0 0 24 24">
+    <path d="M12.11 0C8.42 0 8.04 1.58 8.04 1.58L8.06 3.2H12.2V3.79H6.54S3.79 3.52 3.79 7.15C3.79 10.79 5.86 10.74 5.86 10.74H7.13V8.92c0-2.48 2.02-4.5 4.5-4.5h3.63s1.77 0 1.77-1.74c0-1.76-1.42-2.68-3.63-2.68H12.11z" fill="#306998" />
+    <path d="M11.89 24c3.69 0 4.07-1.58 4.07-1.58L15.94 20.8H11.8v-.59H17.46s2.75.27 2.75-3.36c0-3.64-2.07-3.59-2.07-3.59H16.87V15.08c0 2.48-2.02 4.5-4.5 4.5H8.74s-1.77 0-1.77 1.74c0 1.75 1.42 2.68 3.63 2.68H11.89z" fill="#FFE873" />
+  </symbol>
+
+  <!-- C Icon -->
+  <symbol id="icon-c" viewBox="0 0 24 24">
+    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 18.25c-3.452 0-6.25-2.798-6.25-6.25s2.798-6.25 6.25-6.25c2.33 0 4.354 1.284 5.418 3.175h-2.304c-.818-1.07-2.115-1.775-3.114-1.775-2.071 0-3.75 1.679-3.75 3.75s1.679 3.75 3.75 3.75c1 0 2.296-.705 3.114-1.775h2.304c-1.064 1.891-3.088 3.175-5.418 3.175z" fill="#00599C" />
+  </symbol>
+
+  <!-- Bash Icon -->
+  <symbol id="icon-bash" viewBox="0 0 24 24">
+    <rect x="2" y="3" width="20" height="18" rx="2" ry="2" fill="#0F172A" stroke="#4EAA25" stroke-width="2" />
+    <polyline points="7 9 11 12 7 15" fill="none" stroke="#4EAA25" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="13" y1="15" x2="18" y2="15" fill="none" stroke="#4EAA25" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <!-- Linux Icon (Tux) -->
+  <symbol id="icon-linux" viewBox="0 0 24 24">
+    <path d="M12 2c-2.5 0-4 1.5-4 4 0 1 .5 2 1.5 2.5C8.5 9 8 9.5 8 10c0 .8.5 1.5 1.5 1.8-.5.2-1 .5-1 1 0 1.2 1.5 2.2 3.5 2.2s3.5-1 3.5-2.2c0-.5-.5-.8-1-1 1-.3 1.5-1 1.5-1.8 0-.5-.5-1-1.5-1.5 1-.5 1.5-1.5 1.5-2.5 0-2.5-1.5-4-4-4z" fill="#222222" />
+    <path d="M10 5.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm3 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0z" fill="#FFFFFF" />
+    <circle cx="11" cy="5.5" r="0.5" fill="#000000" />
+    <circle cx="14" cy="5.5" r="0.5" fill="#000000" />
+    <path d="M11 7c0 .5.5 1 1 1s1-.5 1-1h-2z" fill="#FFA500" />
+    <path d="M10 9c-1 0-2 1.5-2 3.5s1 3.5 2 3.5h4c1 0 2-1.5 2-3.5S15 9 14 9h-4z" fill="#FFFFFF" />
+    <path d="M6 13c-1 0-2 1-2 2.5s.8 2 2 1v-3.5zm12 0c1 0 2 1 2 2.5s-.8 2-2 1v-3.5z" fill="#222222" />
+    <path d="M8 18c-1.5 0-3 1-3 2.5C5 21.5 7 22 9.5 22h5c2.5 0 4.5-.5 4.5-1.5c0-1.5-1.5-2.5-3-2.5l-8 0z" fill="#FFA500" />
+  </symbol>
+
+  <!-- SQLite Icon -->
+  <symbol id="icon-sqlite" viewBox="0 0 24 24">
+    <path d="M12 2C6.48 2 2 4.01 2 6.5s4.48 4.5 10 4.5 10-2.01 10-4.5S17.52 2 12 2zm0 6.5c-4.41 0-8-1.34-8-3s3.59-3 8-3 8 1.34 8 3-3.59 3-8 3zM2 8.5v4c0 2.49 4.48 4.5 10 4.5s10-2.01 10-4.5v-4c0 2.49-4.48 4.5-10 4.5S2 11 2 8.5zm0 5v4c0 2.49 4.48 4.5 10 4.5s10-2.01 10-4.5v-4c0 2.49-4.48 4.5-10 4.5S2 16 2 13.5z" fill="#0f80cc" />
+  </symbol>
+
+  <!-- SQL Icon -->
+  <symbol id="icon-sql" viewBox="0 0 24 24">
+    <path d="M12 2C6.48 2 2 3.79 2 6v12c0 2.21 4.48 4 10 4s10-1.79 10-4V6c0-2.21-4.48-4-10-4zm0 2c4.41 0 8 1.34 8 3s-3.59 3-8 3-8-1.34-8-3 3.59-3 8-3zm0 14c-4.41 0-8-1.34-8-3v-2.5c1.76 1.48 4.7 2.5 8 2.5s6.24-1.02 8-2.5V15c0 1.66-3.59 3-8 3zm0-5c-4.41 0-8-1.34-8-3V7.5c1.76 1.48 4.7 2.5 8 2.5s6.24-1.02 8-2.5V10c0 1.66-3.59 3-8 3z" fill="#00758F" />
+  </symbol>
+
+  <!-- Tmux Icon -->
+  <symbol id="icon-tmux" viewBox="0 0 24 24">
+    <rect x="3" y="3" width="18" height="18" rx="2" ry="2" fill="#0B0F19" stroke="#10B981" stroke-width="2" />
+    <line x1="9" y1="3" x2="9" y2="21" stroke="#10B981" stroke-width="2" />
+    <line x1="9" y1="12" x2="21" y2="12" stroke="#10B981" stroke-width="2" />
+  </symbol>
+
+  <!-- Git Icon -->
+  <symbol id="icon-git" viewBox="0 0 24 24">
+    <circle cx="18" cy="18" r="3" fill="#F05032" />
+    <circle cx="6" cy="6" r="3" fill="#F05032" />
+    <circle cx="6" cy="18" r="3" fill="#F05032" />
+    <path d="M6 9v6M18 15a9 9 0 0 0-9-9h-3" fill="none" stroke="#F05032" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <!-- Prompt Engineering Icon (Sparkles) -->
+  <symbol id="icon-prompt-eng" viewBox="0 0 24 24">
+    <path d="M12 2l2.4 4.8 5.3.8-3.9 3.8.9 5.3-4.7-2.5-4.7 2.5.9-5.3-3.9-3.8 5.3-.8L12 2z" fill="#EC4899" />
+    <path d="M19 13l1 2 2.1.3-1.5 1.5.4 2.1-1.9-1-1.9 1 .4-2.1-1.5-1.5 2.1-.3L19 13z" fill="#EC4899" />
+    <path d="M6 4l.8 1.6 1.7.3-1.2 1.2.3 1.7-1.6-.8-1.6.8.3-1.7-1.2-1.2 1.7-.3L6 4z" fill="#EC4899" />
+  </symbol>
+
+  <!-- Shield Icon -->
+  <symbol id="icon-shield" viewBox="0 0 24 24">
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <!-- Users Icon -->
+  <symbol id="icon-users" viewBox="0 0 24 24">
+    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="9" cy="7" r="4" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M23 21v-2a4 4 0 0 0-3-3.87" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M16 3.13a4 4 0 0 1 0 7.75" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <!-- School Cap Icon -->
+  <symbol id="icon-school" viewBox="0 0 24 24">
+    <path d="M22 10v6M2 10l10-5 10 5-10 5z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <!-- Briefcase Icon -->
+  <symbol id="icon-briefcase" viewBox="0 0 24 24">
+    <rect x="2" y="7" width="20" height="14" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <!-- Code Arrow Icon -->
+  <symbol id="icon-code-arrow" viewBox="0 0 24 24">
+    <polyline points="4 17 10 11 4 5" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="12" y1="19" x2="20" y2="19" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <!-- Star Icon -->
+  <symbol id="icon-star" viewBox="0 0 24 24">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <!-- Folder Plus Icon -->
+  <symbol id="icon-folder-plus" viewBox="0 0 24 24">
+    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="12" y1="11" x2="12" y2="17" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="9" y1="14" x2="15" y2="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <!-- Arrow Left Icon -->
+  <symbol id="icon-arrow-left" viewBox="0 0 24 24">
+    <line x1="19" y1="12" x2="5" y2="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <polyline points="12 19 5 12 12 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <!-- Arrow Up Icon -->
+  <symbol id="icon-arrow-up" viewBox="0 0 24 24">
+    <line x1="12" y1="19" x2="12" y2="5" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <polyline points="5 12 12 5 19 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+</svg>
