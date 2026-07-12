@@ -253,15 +253,16 @@
 }
 
 .card-btn-outline {
-  background: transparent;
-  color: var(--text-secondary);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(6, 182, 212, 0.03);
+  color: var(--accent-cyan);
+  border: 1px solid rgba(6, 182, 212, 0.2);
 }
 
 .card-btn-outline:hover {
-  border-color: var(--accent-purple);
-  color: var(--text-primary);
-  background: rgba(167, 139, 250, 0.08);
+  border-color: var(--accent-cyan);
+  color: #fff;
+  background: rgba(6, 182, 212, 0.1);
+  box-shadow: 0 0 10px rgba(6, 182, 212, 0.2);
 }
 
 /* Scroll to Top Button */

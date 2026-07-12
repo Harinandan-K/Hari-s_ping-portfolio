@@ -244,6 +244,31 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- Experience Tab Switcher Controller ---
   const tabButtons = document.querySelectorAll('.exp-tab-btn');
   const tabContents = document.querySelectorAll('.experience-tab-content');
+  const indicator = document.querySelector('.exp-tab-indicator');
+
+  function updateIndicator(btn) {
+    if (!indicator || !btn) return;
+    indicator.style.width = `${btn.offsetWidth}px`;
+    indicator.style.height = `${btn.offsetHeight}px`;
+    indicator.style.transform = `translate3d(${btn.offsetLeft}px, ${btn.offsetTop}px, 0)`;
+  }
+
+  // Initialize indicator position
+  const activeBtn = document.querySelector('.exp-tab-btn.active');
+  if (activeBtn) {
+    // Small timeout to ensure font assets and dimensions are ready
+    setTimeout(() => {
+      updateIndicator(activeBtn);
+    }, 100);
+  }
+
+  // Update position on window resize for responsiveness
+  window.addEventListener('resize', () => {
+    const currentActive = document.querySelector('.exp-tab-btn.active');
+    if (currentActive) {
+      updateIndicator(currentActive);
+    }
+  });
 
   tabButtons.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -251,6 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       tabButtons.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
+      updateIndicator(btn);
 
       tabContents.forEach(content => {
         content.classList.remove('active');
