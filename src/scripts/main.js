@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Scroll spy for navigation via IntersectionObserver
   const sections = document.querySelectorAll('section');
-  const navLinks = document.querySelectorAll('.nav-link');
+  const navLinks = document.querySelectorAll('.nav-link, .nav-btn');
   if (sections.length > 0 && navLinks.length > 0) {
     const spyObserver = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', () => {
     timeline.querySelectorAll('.exp-timeline-item').forEach(el => el.classList.add('scroll-reveal-item'));
   });
   
-  const publications = document.querySelectorAll('.publications-grid');
+  const publications = document.querySelectorAll('.publications-grid, .certifications-grid');
   publications.forEach(pub => {
     pub.classList.add('scroll-reveal-container');
     pub.querySelectorAll('.pub-card').forEach(el => el.classList.add('scroll-reveal-item'));
@@ -256,10 +256,14 @@ document.addEventListener('DOMContentLoaded', () => {
   // Initialize indicator position
   const activeBtn = document.querySelector('.exp-tab-btn.active');
   if (activeBtn) {
-    // Small timeout to ensure font assets and dimensions are ready
-    setTimeout(() => {
-      updateIndicator(activeBtn);
-    }, 100);
+    // Timeout and font load fallback to guarantee dimensions are exact
+    setTimeout(() => updateIndicator(activeBtn), 50);
+    setTimeout(() => updateIndicator(activeBtn), 300);
+    if (document.fonts) {
+      document.fonts.ready.then(() => {
+        updateIndicator(activeBtn);
+      });
+    }
   }
 
   // Update position on window resize for responsiveness

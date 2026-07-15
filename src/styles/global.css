@@ -185,7 +185,7 @@ nav {
   box-shadow: 0 0 5px rgba(167, 139, 250, 0.1);
 }
 
-.nav-btn:hover {
+.nav-btn:hover, .nav-btn.active {
   background: var(--accent-purple);
   color: var(--bg-primary);
   border-color: var(--accent-purple);
@@ -1010,21 +1010,22 @@ nav {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+  width: 100%;
 }
 
 .experience-tabs-bar {
   display: flex;
   position: relative;
-  background: var(--bg-card);
-  border: 1px solid var(--border-color);
+  background: rgba(14, 11, 22, 0.8);
+  border: 1px solid rgba(167, 139, 250, 0.15);
   border-radius: 8px;
   padding: 4px;
   gap: 4px;
   width: 100%;
-  max-width: 400px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  max-width: 580px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .exp-tab-indicator {
@@ -1032,9 +1033,9 @@ nav {
   top: 0;
   left: 0;
   border-radius: 6px;
-  background: rgba(167, 139, 250, 0.15);
-  border: 1px solid rgba(167, 139, 250, 0.3);
-  box-shadow: 0 2px 10px rgba(167, 139, 250, 0.15);
+  background: rgba(167, 139, 250, 0.12);
+  border: 1px solid rgba(167, 139, 250, 0.35);
+  box-shadow: 0 0 12px rgba(167, 139, 250, 0.2);
   pointer-events: none;
   transition: transform 0.38s cubic-bezier(0.25, 1, 0.5, 1), width 0.38s cubic-bezier(0.25, 1, 0.5, 1), height 0.38s cubic-bezier(0.25, 1, 0.5, 1);
   will-change: transform, width, height;
@@ -1056,6 +1057,7 @@ nav {
   text-align: center;
   position: relative;
   z-index: 1;
+  white-space: nowrap;
 }
 
 .exp-tab-btn:hover {
@@ -1063,7 +1065,8 @@ nav {
 }
 
 .exp-tab-btn.active {
-  color: var(--text-primary);
+  color: #fff;
+  text-shadow: 0 0 8px rgba(167, 139, 250, 0.5);
   font-weight: 600;
 }
 
@@ -1262,6 +1265,68 @@ nav {
   gap: 24px;
 }
 
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.cert-more-card {
+  border: 1px dashed var(--accent-purple) !important;
+  background: rgba(167, 139, 250, 0.02) !important;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cert-more-card:hover {
+  background: linear-gradient(135deg, rgba(167, 139, 250, 0.08) 0%, rgba(124, 58, 237, 0.04) 100%) !important;
+  border-style: solid !important;
+  border-color: var(--accent-purple) !important;
+  box-shadow: 0 0 25px rgba(167, 139, 250, 0.25) !important;
+}
+
+.cert-more-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin: auto;
+}
+
+.cert-more-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(167, 139, 250, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-purple);
+  transition: all 0.3s;
+}
+
+.cert-more-card:hover .cert-more-icon {
+  background: var(--accent-purple);
+  color: var(--bg-primary);
+  box-shadow: 0 0 15px rgba(167, 139, 250, 0.5);
+  transform: scale(1.1);
+}
+
+.cert-more-text {
+  font-family: var(--font-heading);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.cert-more-subtext {
+  font-size: 11.5px;
+  color: var(--text-muted);
+}
+
 .pub-card {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
@@ -1280,6 +1345,12 @@ nav {
   border-color: var(--accent-purple);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
   transform: translateY(-2px);
+}
+
+a.pub-card {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .pub-meta {
@@ -1531,7 +1602,7 @@ footer {
   .stack-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .publications-grid, .credentials-grid {
+  .publications-grid, .certifications-grid {
     grid-template-columns: 1fr;
     gap: 32px;
   }
@@ -1588,6 +1659,20 @@ footer {
   }
   .project-more-card {
     grid-column: span 1;
+  }
+  .experience-tabs-container {
+    overflow-x: auto;
+    padding-bottom: 6px;
+    justify-content: flex-start;
+  }
+  .experience-tabs-bar {
+    width: max-content;
+    max-width: none;
+    margin: 0 auto;
+  }
+  .exp-tab-btn {
+    font-size: 12px;
+    padding: 8px 14px;
   }
 }
 

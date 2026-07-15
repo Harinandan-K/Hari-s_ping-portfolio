@@ -1,0 +1,52 @@
+@import './projects.css';
+
+/* Certifications page custom overrides */
+.card-badge.green {
+  background: var(--accent-cyan) !important;
+  color: var(--bg-primary) !important;
+  border: 1px solid var(--accent-cyan) !important;
+  font-weight: 700;
+  text-shadow: none !important;
+  box-shadow: 0 4px 12px rgba(6, 182, 212, 0.4) !important;
+}
+
+.card-badge.purple {
+  background: var(--accent-purple) !important;
+  color: var(--bg-primary) !important;
+  border: 1px solid var(--accent-purple) !important;
+  font-weight: 700;
+  text-shadow: none !important;
+  box-shadow: 0 4px 12px rgba(167, 139, 250, 0.4) !important;
+}
+
+/* Custom icon alignment inside certificate verification button */
+.card-btn svg {
+  margin-left: 2px;
+}
+
+/* Multi-link layout styles */
+.cert-links-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.main-link {
+  width: 100%;
+}
+
+.cert-modules-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  width: 100%;
+}
+
+.sub-link {
+  font-size: 11px !important;
+  padding: 6px 8px !important;
+  text-align: center;
+  justify-content: center;
+}
+

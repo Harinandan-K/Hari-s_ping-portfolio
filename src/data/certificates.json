@@ -1,0 +1,57 @@
+[
+  {
+    "id": "python-programming",
+    "title": "Python Programming: 25 Days Challenge",
+    "issuer": "Udemy (Indently.io)",
+    "year": "2026",
+    "description": "Udemy course by Indently.io, focusing on Python essentials, daily coding challenges, and workflow automations.",
+    "tags": ["Python", "Scripting", "OOP", "Automation"],
+    "credential_url": null,
+    "banner_image": null,
+    "status_color": "in-progress",
+    "status_text": "In Progress"
+  },
+  {
+    "id": "genai-prompt-engineering",
+    "title": "Generative AI: Prompt Engineering",
+    "issuer": "Coursera Google",
+    "year": "2025",
+    "description": "Google Prompt Engineering certification on Coursera, focusing on prompt design patterns, hands-on generative AI prompting, and workflow automation.",
+    "tags": ["Generative AI", "Prompt Engineering", "Gemini", "LLMs"],
+    "credential_url": "/Certificates/Coursera-Gen-AI/0_Google_Prompting_Essentials_(4_MODULE_COMBINED).pdf",
+    "banner_image": "/Certificates/Coursera-Gen-AI/google_prompting_essential-1.png",
+    "links": [
+      { "label": "Open Combined PDF", "url": "/Certificates/Coursera-Gen-AI/0_Google_Prompting_Essentials_(4_MODULE_COMBINED).pdf" },
+      { "label": "Module 1", "url": "/Certificates/Coursera-Gen-AI/1_Start_Writing_Prompts_like_Pro.pdf" },
+      { "label": "Module 2", "url": "/Certificates/Coursera-Gen-AI/2_Design_Prompts_for_Everyday_Work_Task.pdf" },
+      { "label": "Module 3", "url": "/Certificates/Coursera-Gen-AI/3_Speed_Up_Data_Analysis_and_Presentation_Building.pdf" },
+      { "label": "Module 4", "url": "/Certificates/Coursera-Gen-AI/4_Use_AI_as_a_Creative_or_Expert_Partner.pdf" }
+    ],
+    "status_color": "completed",
+    "status_text": "Completed"
+  },
+  {
+    "id": "ip-carnival-innovationship",
+    "title": "Certificate of Innovationship (IP Carnival)",
+    "issuer": "JAIN & MIT Square",
+    "year": "2024",
+    "description": "Awarded in recognition for achievements in the field of Research, Innovation, and Intellectual Property.",
+    "tags": ["Research", "Innovation", "Intellectual Property"],
+    "credential_url": "/Certificates/IP_Carnival/Harinandan.K_IP_Carnival.pdf",
+    "banner_image": "/Certificates/IP_Carnival/Harinandan.K_IP_Carnival.jpg",
+    "status_color": "completed",
+    "status_text": "Completed"
+  },
+  {
+    "id": "git-github",
+    "title": "Git & GitHub Developer Certificate",
+    "issuer": "JAIN night labs",
+    "year": "2024",
+    "description": "Focused on version control systems, team branching flows, CI/CD configuration, and open-source collaboration patterns.",
+    "tags": ["Git", "GitHub", "Version Control", "Collaboration"],
+    "credential_url": "/Certificates/GitHub_Night_lab_Jain.pdf",
+    "banner_image": "/Certificates/GitHub_Night_lab_Jain.jpg",
+    "status_color": "completed",
+    "status_text": "Completed"
+  }
+]
